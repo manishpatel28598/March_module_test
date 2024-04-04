@@ -77,3 +77,42 @@ thead{
     height: 40px;
     width: 40px;
 }
+
+@media only screen and (max-width: 600px){
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        overflow-x: scroll;
+        align-items: center;
+        
+    }
+    #formcontainer{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: scroll;
+    }
+    #table{
+        margin-left: 10px;
+        width: fit-content;
+        overflow-x: scroll;
+    }
+    td{
+        padding: 5px;
+        
+    }
+    thead{
+        
+        padding: 10px;
+    }
+    
+    #image{
+        height: 20px;
+        width: 20px;
+    }
+}
